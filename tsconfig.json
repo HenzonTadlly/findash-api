@@ -1,20 +1,14 @@
 {
   "compilerOptions": {
-    /* Configurações de Módulo e Ambiente */
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
-
-    /* Configurações de Saída */
     "outDir": "./dist",
-
-    /* Regras de Código */
     "strict": true
   },
-  /* Diretiva para o Compilador */
-  "include": ["src/**/*"], // Diz ao TS para compilar tudo dentro da pasta 'src'
-  "exclude": ["node_modules"] // Ignora a pasta node_modules
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
