@@ -125,7 +125,7 @@ app.post('/transactions', async (req, res) => {
 app.post('/transactions', authMiddleware, async (req, res) => { /* ...código existente... */ });
 
 
-// --- NOVA ROTA PARA IMPORTAR E CATEGORIZAR TRANSAÇÕES EM MASSA ---
+// --- NOVA ROTA PARA IMPORTAR E CATEGORIZAR TRANSAÇÕES ---
 app.post('/transactions/import', authMiddleware, async (req, res) => {
   try {
     // @ts-ignore
