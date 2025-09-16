@@ -184,7 +184,6 @@ transactionRoutes.put('/:id', async (req, res) => {
   }
 });
 
-// ROTA PARA DELETAR UMA TRANSAÇÃO
 transactionRoutes.delete('/:id', async (req, res) => {
   try {
     // @ts-ignore
